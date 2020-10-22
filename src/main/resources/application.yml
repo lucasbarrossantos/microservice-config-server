@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lucasbarrossantos/microservices-repo
+          searchPaths: fornecedor, loja
+          username: ${username_git}
+          password: ${password_git}
