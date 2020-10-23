@@ -7,6 +7,6 @@ spring:
       server:
         git:
           uri: https://github.com/lucasbarrossantos/microservices-repo
-          searchPaths: fornecedor, loja
+          searchPaths: fornecedor, loja, transportador
           username: ${username_git}
           password: ${password_git}
